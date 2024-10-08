@@ -77,26 +77,23 @@ body {
 
 .Top {
     max-width: 100%;
+    height: 583px;
     display: flex;
     flex-wrap: nowrap;
     padding: 40px 3%;
     background-color: rgba(255, 255, 255, 0.885);
+    background-image: url(Construct1.jpg);
+    background-attachment: fixed;
     align-items: center;
-}
-
-.Top img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
 }
 
 .Top div{
-    flex-wrap: nowrap;
-    padding: 25px 4%;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
     font-family: calibri;
     font-weight: 200;
+    font-size: 20pt;
     color: #073571;
     text-shadow: -.2px .2px 0 #000,
                 .2px .2px 0 #000,
@@ -104,29 +101,26 @@ body {
                 -.2px -.2px 0 #000;
 }
 
-.Middle {
-    max-width: 100%;
-    height: 583px;
-    background-color: aqua;
+h1 {
+    font-size: 30pt;
 }
 
-.Middle img {
-    width: 100px;
-    height: 70px;
-}
 
-.bottom {
+.middle {
     max-width: 100%;
     height: 583px;
     align-items: center;
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 
-.bottom div {
+.middle div {
     flex-wrap: nowrap;
-    padding: 25px 4%;
+    padding: 25px 15%;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    word-spacing: 5px;
     font-family: calibri;
     font-weight: 200;
     color: #073571;
@@ -137,16 +131,20 @@ body {
 }
 
 .bot_top {
-    padding: 150px 1%;
+    padding: 48px 15%;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(255, 142, 127);
     max-width: 100%;
     height: 437.25px;
 }
 
-.bot_top img {
-    width: 200px;
-    height: 200px;
+.bot_top div {
+    display: inline-block;
+    padding: 0px 40px;
+    text-align: center;
+    align-items: center;
     justify-content: space-between;
+    list-style: none;
 }
